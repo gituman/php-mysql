@@ -1,4 +1,5 @@
 <?php include 'controllers/authController.php'?>
+<?php require 'head.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>

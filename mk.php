@@ -1,7 +1,9 @@
+<?php require 'head.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
 <title> mortal kombat leaderboard</title>
+
 <style>
 table {
 border: 1px solid black;
@@ -37,10 +39,14 @@ ul li a{
     .h2{
         position: absolute;
     }
+
+   
 </style>
 </head>
 
 <body>
+
+
 <ul>
   <li><a href="index.php">home</a></li>
   <li><a href="cod.php">callofduty</a>

@@ -1,32 +1,8 @@
-
+<?php require 'head.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
-  ul{
-   margin: 0px;
-   padding: 0px;
-   list-style: none;
-}
-ul li{
-    float: right;
-    width: 200px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    font-size: 20px;
-    border: solid black;
-}
-ul li a{
-     text-decoration: none;
-     color: black;
-     display: block;
-    }
-    .swagbutton{
-      font-family: "proxima nova";
-      color: red;
-    }
-</style>
+
 <title>tournaments</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

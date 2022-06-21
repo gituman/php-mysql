@@ -1,4 +1,5 @@
  <?php include 'newcon.php'?>
+ <?php require 'head.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,9 +47,9 @@ ul li a{
   <li><a href="index.php">home</a>
   </ul>
 <table>
-<h2>my wallet</h2>
+<h2>MY WALLET</h2>
 <tr>
-<th>balance</th>
+<th>BALANCE</th>
 <?php
  $conn = new mysqli('localhost','root','','user-verification');
  

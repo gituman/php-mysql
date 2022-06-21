@@ -1,4 +1,5 @@
 <?php include 'newcon.php'?>
+<?php require 'head.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +16,7 @@ ul li{
     line-height: 40px;
     text-align: center;
     font-size: 20px;
-    border: solid black;
+    
 }
 ul li a{
      text-decoration: none;
@@ -35,6 +36,7 @@ ul li a{
 </head>
 <body>
 <ul>
+<li><a href="mywager.php" id="button" class="button">my wagers</a></li>
   <li><a href="newwager.php" id="button" class="button">new wager</a></li>
   <li><a href="wageresult.php" id="button" class="button">post result</a></li>
   <li><a href="index.php" id="button" class="button">home</a></li>
